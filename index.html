@@ -1,107 +1,105 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Il mio Sito Web</title>
+<html><head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="">
 
-    <!-- Link per il CSS di Bootstrap (versione CDN) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJxvIj4joQJj5L4k5aV5n5lYZ7X2E3Jd5l91M8FzO7G8Y7M+XzO5Fjdq6k9M" crossorigin="anonymous">
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-    <!-- Stile per lo sfondo azzurro -->
-    <style>
-        body {
-            background-color: #add8e6; /* Azzurro chiaro */
-        }
-    </style>
-</head>
-<body>
-    <!-- Contenuto della pagina -->
-    <div class="container mt-5 text-center">
-        <h1>Benvenuto nel mio sito web!</h1>
-        <p class="lead">Questo è un esempio di un sito web con uno sfondo azzurro.</p>
-    </div>
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home active"><span>Home</span></a>
+						<a href="#research" class="icon solid fa-folder"><span>Research</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contacts</span></a>
+						<a href="https://x.com/palindromicanna" class="icon brands fa-twitter"><span>Twitter</span></a>
+					</nav>
 
-    <!-- Link per il JS di Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0pDGF4LnQ2z2rT0v6jB4pck5v1s2jt92xLsq29uhC52Xh2EO" crossorigin="anonymous"></script>
-</body>
-</html>
+				<!-- Main -->
+					<div id="main">
 
-    
-    <!-- Favicon (opzionale) -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <!-- Barra di navigazione -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Il mio Sito</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Chi Siamo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contatti</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Anna Tommasi</h1>
+									<p>PhD Student in Archaeogenomics</p>
+									<p style="font-size: 18px;">University of Pavia</p>
+								</header>
+								<a href="#research" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/Biblio.png" alt="">
+								</a>
+							</article>
 
-    <!-- Sezione di benvenuto -->
-    <div class="container mt-5 text-center">
-        <h1>Benvenuto nel mio sito web!</h1>
-        <p class="lead">Questo è un esempio di un sito web statico creato con HTML, CSS e Bootstrap.</p>
-        <p>Qui puoi aggiungere informazioni, immagini e link al tuo contenuto.</p>
-    </div>
+						<!-- Work -->
+							<article id="research" class="panel inactive" style="display: none;">
+								<header>
+									<h2>Research</h2>
+								</header>
+								<p>
+									I am a PhD student specializing in population genomics and mitochondrial DNA analysis. My work explores the stories written in our genomes, focusing on how mitochondrial diversity reveals patterns of kinship, ancestry, and geographic distribution. By combining cutting-edge bioinformatics tools with statistical analysis, I aim to uncover the connections between genetic data and human history, contributing to our understanding of evolution and migration.
+								</p>
+								<section>
+									<header>
+										<h2>Publications</h2>
+									</header>
+									<ul>
+										<!-- 1 -->
+										<li>Irene Cardinali, Andrea Giontella, <b>Anna Tommasi</b>, Maurizio Silvestrelli, Hovirag Lancioni
+										<br><i>Unlocking Horse Y Chromosome Diversity </i>
+										<br><i>Genes</i>, 2022. doi: <a href=" https://doi.org/10.3390/genes13122272">10.3390/genes13122272</a></li>
+										<!-- /1 -->
+										
+									</ul>
+								</section>
+							</article>
 
-    <!-- Sezione di contenuto -->
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Immagine esempio">
-                    <div class="card-body">
-                        <h5 class="card-title">Progetto 1</h5>
-                        <p class="card-text">Descrizione breve del primo progetto o attività.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Immagine esempio">
-                    <div class="card-body">
-                        <h5 class="card-title">Progetto 2</h5>
-                        <p class="card-text">Descrizione breve del secondo progetto o attività.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Immagine esempio">
-                    <div class="card-body">
-                        <h5 class="card-title">Progetto 3</h5>
-                        <p class="card-text">Descrizione breve del terzo progetto o attività.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						<!-- Contact -->
+							<article id="contact" class="panel inactive" style="display: none;">
+								<header>
+									<h2>Contacts</h2>
+								</header>
+								<p>
+									<b>Institution</b>
+									<br> Department of Biology and Biotechnology "L. Spallanzani"
+									<br> Via Adolfo Ferrata 5, 27100 Pavia
+									<br> University of Pavia
+									<br> Italy
+									<br><br>
+									<b>Email</b>
+									<br><a href="mailto: anna.tommasi01@universitadipavia.it">anna.tommasi01@universitadipavia.it</a>
+									<br><br>
+									<b>Social</b>
+									<br>
+									<a href="https://scholar.google.com/citations?hl=it&user=YD05SEcAAAAJ"><img src="images/Google_Scholar_logo.png" alt="Google Scholar" style="background:transparent;width:25px;height:25px"></a>
+									<a href="https://www.researchgate.net/profile/Anna-Tommasi-2"><img src="images/ResearchGate_icon.png" alt="Research Gate" style="background:transparent;width:25px;height:25px"></a>
+									<a href="https://www.linkedin.com/in/anna-tommasi-171815220/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="images/Logo_of_Linkedin.png" alt="Linkedin" style="background:transparent;width:30px;height:25px"></a>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-3 mt-5">
-        <p>&copy; 2024 Il mio sito web. Tutti i diritti riservati.</p>
-    </footer>
 
-    <!-- Link per il JS di Bootstrap (versione CDN) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0pDGF4LnQ2z2rT0v6jB4pck5v1s2jt92xLsq29uhC52Xh2EO" crossorigin="anonymous"></script>
-</body>
-</html>
+								</p>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>© Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	
+
+</body></html>
